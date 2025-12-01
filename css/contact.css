@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(0, 20, 63)
+}
+
+
+.top-banner {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/swimming.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.big-title {
+    font-size: 60px;
+    color: #083e7f;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.touch-text {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+
+.contact-box {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    background-image: url("../images/gymc.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 50px;
+    border: 3px solid #0080ff;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
+}
+
+.contact-left,
+.contact-right {
+    width: 50%;
+    color: white;
+}
+
+
+.social-box {
+    width: 85%;
+    margin: 40px auto;
+    padding: 30px;
+    background-image: url("../images/volleyballc.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #0080ff;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+}
+
+.social-left,
+.social-right {
+    color: white;
+}
+
+
+.location-title {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.location-title h2 {
+    color: white;
+    font-size: 32px;
+}
+
+
+.location-box {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.location-left,
+.location-right {
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+.photo-small {
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.waterpark {
+    background-image: url("../images/waterpark3.jpg");
+}
+
+.rules {
+    background-image: url("../images/rulesc.png");
+}
+
+
+.map {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.map1 {
+    background-image: url("../images/map1.png");
+}
+
+.map2 {
+    background-image: url("../images/map2.png");
+}
